@@ -1,0 +1,38 @@
+h1 {
+  text-align: center;
+}
+
+.userNew > * {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 500px;
+}
+.userNew > * p {
+  padding-top: 10px;
+}
+.userNew > * input[type=text], .userNew > * input[type=password], .userNew > * input[type=email] {
+  width: 100%;
+  border: none;
+  line-height: 200%;
+}
+.userNew > * div {
+  text-align: center;
+}
+.userNew > * div button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  background: black;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.userNew > * div button:hover {
+  filter: invert(1);
+  box-shadow: 0 0 1px 1px white;
+}

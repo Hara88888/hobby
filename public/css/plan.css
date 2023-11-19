@@ -1,0 +1,22 @@
+.plan__list {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+.plan__list > div {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.plan__list > div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background: #fff;
+  font-size: 18px;
+}

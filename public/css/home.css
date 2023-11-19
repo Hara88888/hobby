@@ -1,0 +1,45 @@
+.home > div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 860px;
+  margin: 0 auto;
+  position: relative;
+  background: rgba(238, 238, 238, 0.3333333333);
+}
+.home > div img {
+  max-width: 100%;
+  width: 400px;
+  z-index: -1;
+}
+.home > div div {
+  max-width: 420px;
+  display: inline;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+.home > div div span {
+  font-size: 40px;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  text-align: right;
+}
+.home > div div a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  background: black;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.home > div div a:hover {
+  filter: invert(1);
+  box-shadow: 0 0 1px 1px white;
+}

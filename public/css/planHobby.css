@@ -1,0 +1,90 @@
+.planHobby__summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1260px;
+  width: 100%;
+  margin: 0 auto;
+}
+.planHobby__summary > * {
+  margin: 10px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: calc(25% - 20px);
+  position: relative;
+}
+.planHobby__summary > * img {
+  width: 100%;
+  border-radius: 10px;
+}
+.planHobby__summary > * span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.planHobby__summary > * p {
+  text-align: center;
+  color: black;
+  line-height: 200%;
+}
+.planHobby__summary > * button {
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
+  border: none;
+  background: #ffd9d9;
+  line-height: 150%;
+  padding: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.planHobby__detail {
+  padding: 60px 0;
+}
+.planHobby__detail > div {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+.planHobby__detail > div > div.contents {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.planHobby__detail > div > div.contents > div.images {
+  display: flex;
+  overflow-x: scroll;
+  padding: 10px 0;
+}
+.planHobby__detail > div > div.contents > div.images img {
+  width: 300px;
+  margin-right: 20px;
+}
+.planHobby__detail > div > div.contents > div.description {
+  padding: 10px 0;
+}
+.planHobby__detail > div > div.contents > div.feelings {
+  display: flex;
+  padding: 10px 0;
+}
+.planHobby__detail > div > div.contents > div.feelings > div {
+  padding: 0 10px;
+  flex: 1;
+}
+.planHobby__detail > div > div.contents div.button {
+  text-align: right;
+}
+.planHobby__detail > div > div.contents div.button button {
+  border: none;
+  background: #ffd9d9;
+  line-height: 150%;
+  padding: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
